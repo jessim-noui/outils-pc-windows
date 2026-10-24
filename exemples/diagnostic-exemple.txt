@@ -1,0 +1,37 @@
+Diagnostic du 12/03/2026 18:30 — période : 14 derniers jours
+(EXEMPLE INVENTÉ : ce PC, ces dates et ces événements n'existent pas. Il montre seulement la forme du rapport.)
+
+=== 1. Le PC ===
+Windows : Microsoft Windows 11 Professionnel
+Allumé depuis : 2.1 h
+Processeur : Intel(R) Core(TM) i5 (exemple)
+Mémoire vive : 7.8 Go libres sur 16.0 Go
+Disque C: : 120.4 Go libres sur 476.9 Go
+Fichier d'échange : C:\pagefile.sys · géré par Windows
+
+=== 2. La carte graphique ===
+Carte : NVIDIA GeForce (exemple) · pilote 5xx.xx
+Mémoire vidéo : 1800 Mo utilisés sur 8192 Mo · 41 °C
+Programmes qui utilisent la carte :
+  C:\Windows\explorer.exe, [N/A]
+  C:\Program Files\Google\Chrome\Application\chrome.exe, [N/A]
+
+=== 3. L'IA locale (Ollama) de Jarvis ===
+Ollama ne tourne pas.
+
+=== 4. Fermetures du jeu et de son lanceur ===
+2 événement(s) de plantage ou de blocage :
+  10/03 21:14 · ID 1000 · Nom de l'application défaillante : jeu-exemple.exe
+ Exception code: 0xc0000005
+  08/03 20:40 · ID 1001 · Détecteur d'erreurs, type 5
+ Nom d'événement : APPCRASH
+
+=== 5. Pilote graphique et système ===
+Pilote graphique qui a cessé de répondre (Display 4101) : 0 fois
+Redémarrages brutaux (Kernel-Power 41) : 0
+Erreurs matérielles (WHEA) : 0
+Écrans bleus : 0
+
+=== 7. Verdict ===
+- Deux plantages du jeu, aucun problème du pilote ni du matériel : commence par vérifier les fichiers du jeu depuis son lanceur.
+- La mémoire vive est suffisante (plus de 7 Go libres).

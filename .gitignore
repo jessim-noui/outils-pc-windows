@@ -1,0 +1,7 @@
+# Rapports produits sur le PC (jamais dans git)
+diagnostic-*.txt
+qui-ouvre-cmd-*.txt
+pause_ollama_journal.txt
+inventaire.js
+telechargements.js
+!exemples/diagnostic-exemple.txt
